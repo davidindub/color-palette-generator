@@ -8,8 +8,12 @@
     <title>Color Palette Generator</title>
 
     <style>
-        * {
+        html,
+        body {
+            margin: 0;
             box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
         }
 
         .container {
@@ -21,6 +25,22 @@
 
         .color {
             height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            cursor: pointer;
+            transition: 0.2;
+        }
+
+        .color:active {
+            opacity: 0.8;
+        }
+
+        .color span {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: white;
+            text-shadow: 1px 1px black;
         }
     </style>
 </head>
