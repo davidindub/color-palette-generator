@@ -1,5 +1,7 @@
 ### Color Palette Generator
 
+![](docs/images/screenshot-ocean.jpg)
+
 Color Palette Generator using OpenAI.
 
 Created following Colt Steele's [Mastering OpenAI Python APIs](https://www.udemy.com/course/mastering-openai/) course on Udemy.
